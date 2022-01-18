@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax学习页</title>
+    <style>
+        button {
+            white-space: nowrap; /*  不换，input.width100%  */
+            padding: 0 28px;
+            border-radius: 4px;
+            background: #0282B9;
+            border: 1px solid #DDDDDD;
+            color: #fff;
+            font-size: 15px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="father">
+<h1>学习 AJAX<span id="myName"></span></h1>
+<p>
+    <button id="getCSS">请求 CSS</button>
+    <button id="getJS">请求 JS</button>
+    <button id="getHTML">请求 HTML</button>
+    <button id="getXML">请求 XML</button>
+    <button id="getJSON">请求 JSON</button>
+    <button id="getPage">请求下一页</button>
+</p>
+</div>
+<div>
+    {{page1}}
+</div>
+<script src="/main.js"></script>
+</body>
+</html>
